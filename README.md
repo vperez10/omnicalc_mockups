@@ -42,11 +42,11 @@ We'll bring our static mockups to life soon.
 
 ## Steps
 
+ - Add the [navbar](http://getbootstrap.com/components/#navbar) to the top. The example code includes every possible use-case, but try to go through and figure out which bits to eliminate and which bits to modify to match our target.
  - Create the basic grid skeleton. [Shoelace.io](http://shoelace.io/) may come in handy.
- - Add the [list of links](http://getbootstrap.com/components/#list-group) to the left side. Since the documents are located in different folders, you need to use [relative file paths](https://css-tricks.com/quick-reminder-about-file-paths/) to make the links work.
+ - Add the [list of links](http://getbootstrap.com/components/#list-group-linked) to the left side. Since the documents are located in different folders, you need to use [relative file paths](https://css-tricks.com/quick-reminder-about-file-paths/) to make the links work.
  - Add a [panel](http://getbootstrap.com/components/#panels-heading) to the right side.
  - Add content to the panel body; either a [form](http://getbootstrap.com/css/#forms-horizontal) or a [description list](http://getbootstrap.com/css/#horizontal-description), depending on which page you are working on.
- - Add the [navbar](http://getbootstrap.com/components/#navbar) to the top.
  - Include [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/) where appropriate.
  - Make it [Responsive](http://getbootstrap.com/css/#responsive-utilities):
   - On extra-small and small screens, hide the left nav.
