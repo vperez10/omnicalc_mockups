@@ -28,7 +28,7 @@ Your job is to make static mockups of the following targets:
  - https://omnicalc-target.herokuapp.com/descriptive_statistics/new
  - https://omnicalc-target.herokuapp.com/descriptive_statistics/results
 
-Your mockups won't actually perform the calculations, of course, but try to make them *look* as close to the targets as possible. Also, don't attempt the datetime picker on `time_between/new.html` yet.
+Your mockups won't actually perform the calculations, of course, but try to make them *look* as close to the targets as possible. Also, don't attempt the dynamic calendar datetime picker on `time_between/new.html` yet.
 
 If you need to write any custom CSS beyond vanilla Bootstrap, you can do so in `custom_styles.css`, which is already linked to all eight documents.
 
