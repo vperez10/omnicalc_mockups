@@ -42,7 +42,7 @@ We'll bring our static mockups to life soon.
 
 ## Steps
 
- - Add the [navbar](http://getbootstrap.com/components/#navbar) to the top. The example code includes every possible use-case, but try to go through and figure out which bits to eliminate and which bits to modify to match our target.
+ - Copy-paste the [navbar example](http://getbootstrap.com/components/#navbar) into your document. The example code includes every possible use-case (dropdowns, search forms, etc), but try to go through and figure out which bits to eliminate and which bits to modify to match our target.
  - Create the basic grid skeleton. [Shoelace.io](http://shoelace.io/) may come in handy.
  - Add the [list of links](http://getbootstrap.com/components/#list-group-linked) to the left side. Since the documents are located in different folders, you need to use [relative file paths](https://css-tricks.com/quick-reminder-about-file-paths/) to make the links work.
  - Add a [panel](http://getbootstrap.com/components/#panels-heading) to the right side.
