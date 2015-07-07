@@ -23,7 +23,81 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <i class="fa fa-calculator"> Omnicalc</i>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
 </body>
 </html>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <a href="/word_count/new" class="list-group-item">
+        <i class="fa fa-book"></i>
+        Word Count
+      </a>
+      <a href="/loan_payment/new" class="list-group-item">
+        <i class="fa fa-money"> Loan Payment</i>
+      </a>
+      <a href="/time_between/new" class="list-group-item">
+        <i class="fa fa-clock-o"> Time Between</i>
+      </a>
+      <a href="/descriptive_statistics/new" class="list-group-item">
+        <i class="fa fa-bar-chart"> Descriptive Statistics</i>
+      </a>
+    </div>
+    <div class="col-md-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"> Loan Payment Calculator</h3>
+        </div>
+        <div class="panel-body">
+
+        </div>
+        <form class="form-horizontal">
+        <p>
+          <div class="form-group form-group-lg">
+            <label class="col-sm-2 control-label" for="formGroupInputLarge"> APR</label>
+            <div class="col-sm-10">
+              <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Enter the APR of the loan (as a percent)">
+            </div>
+            </p>
+            <p>
+            <div class="form-group form-group-lg">
+              <label class="col-sm-2 control-label" for="formGroupInputLarge"> Years</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Enter the number of years to repay the loan">
+              </div>
+              </p>
+              <p>
+              <div class="form-group form-group-lg">
+                <label class="col-sm-2 control-label" for="formGroupInputLarge"> Principal</label>
+                <div class="col-sm-10">
+                  <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Enter the principal of the loan">
+                </div>
+                </p>
+              </div>
+            </form>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
