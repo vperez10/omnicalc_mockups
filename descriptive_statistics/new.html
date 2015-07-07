@@ -67,16 +67,25 @@
             <h3 class="panel-title"> New Word Count Calculation</h3>
           </div>
           <div class="panel-body">
-            <div id="border">
-            <textarea id='text'></textarea>
+            
         </div>
-        <button id="count">Count</button>
-        <div id="result">
-            Words: <span id="wordCount">0</span><br/>
-            Total Characters(including trails): <span id="totalChars">0</span><br/>
-            Characters (excluding trails): <span id="charCount">0</span><br/>
-            Characters (excluding all spaces): <span id="charCountNoSpace">0</span>
+        <form class="form-horizontal">
+  <div class="form-group form-group-lg">
+    <label class="col-sm-2 control-label" for="formGroupInputLarge"> Text</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Type main content here">
+    </div>
+  </div>
+  <div class="form-group form-group-sm">
+    <label class="col-sm-2 control-label" for="formGroupInputSmall"> Special Word</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Type here">
+    </div>
+  </div>
+</form>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
         </div>
+
           </div>
         </div>
       </div>
